@@ -1,0 +1,200 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*	Resets
+	------	*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, 
+p, blockquote, pre, a, abbr, address, cite, code, del, dfn, em, 
+img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, hr, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figure, figcaption, hgroup, 
+menu, footer, header, nav, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, canvas, figure, figure img, figcaption, hgroup,
+footer, header, nav, section, audio, video {
+	display: block;
+}
+
+a img {border: 0;}
+
+em {
+	color:#C90;
+	font-weight:bold;
+
+}
+
+/* new clearfix */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    }
+
+.clearfix {display: inline-block;}  /* for IE/Mac */
+
+.clearfix {
+    zoom: 1;     /* triggers hasLayout */
+    display: block;     /* resets display for IE/Win */
+    }  /* Only IE can see inside the conditional comment
+    and read this CSS rule. Don't ever use a normal HTML
+    comment inside the CC or it will close prematurely. */
+
+
+body {
+	background-image: url(img/conversations/tanstripes.jpg);
+	background-repeat:repeat;
+}
+
+#wrapper {
+	width: 1035px;
+	background-color: #C93;
+	opacity:0.9;
+	filter:alpha(opacity=90); /* For IE8 and earlier */
+	margin: 0 auto;
+	padding-top: 35px;	
+}
+
+
+h1 {
+	font-family: 'WorstveldSling';
+	font-size: 70px;
+	color:#900;
+
+}
+
+h2 {
+	font-family: 'WorstveldSling';
+	font-size: 42px;
+	margin-top: 30px;
+	color:#900;
+}
+
+h3 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#C90;
+}
+
+p {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin-top: 8px;	
+}
+
+a, a:visited {
+	color:#900;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#c90;
+	text-decoration:underline;
+}
+
+
+ul li {
+	list-style: none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+
+#content {
+	width: 955px;
+	background-color: #FAF5E6;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#header {
+	padding-left: 10px;
+}
+
+#header_imgs {
+	width: 100%;
+	margin-top: 10px;
+}
+
+#header_imgs img {
+	margin-right: 20px;
+	border: solid 2px #c90;
+}
+
+
+#content_right {
+	width: 300px;
+	border: solid 1px #c90;	
+	float: left;
+	margin-left: 20px;
+	padding: 5px 5px 20px 5px;
+	margin-top: 30px;
+	
+}
+
+#content_left {
+	width: 600px;
+	float: left;
+	padding-left: 10px;
+
+
+	
+}
+
+#content_right h2, #content_right p, #content_right ul {
+	text-align:center;
+}
+
+#about_img {
+	margin: 12px 15px 12px 0px;
+	float: left;
+	-webkit-box-shadow: 2px 2px 2px 2px #999;
+	box-shadow: 2px 2px 2px 2px #999;
+
+}
+
+.tiny {
+	font-size:12px;
+	font-style:italic;
+}
+
+.location {
+	width: 800px;
+	margin: 10px 0px 20px 10px;
+	border-top:thin dotted #c90;
+	border-bottom: thin dotted #c90;
+}
+
+.location img {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 2px 2px 2px 2px #999;
+	box-shadow: 2px 2px 2px 2px #999;
+	
+}
+
+.location ul, .location p {
+	clear: left;
+}
+
+.location h2, .day h2 {
+	color: #c90;
+	margin-bottom: 5px;
+}
+
+.day {
+	width: 800px;
+	margin: 10px 0px 20px 10px;
+	border-top:thin dotted #c90;
+	border-bottom: thin dotted #c90;
+}
+
+.day ul li {
+	margin-top: 12px;
+}
