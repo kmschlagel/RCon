@@ -113,12 +113,13 @@ ul li {
 }
 
 #header {
-	padding-left: 10px;
+	padding: 10px 0px 0px 10px;
 }
 
 #header_imgs {
 	width: 100%;
 	margin-top: 10px;
+    padding-bottom: 10px;
 }
 
 #header_imgs img {
@@ -126,6 +127,20 @@ ul li {
 	border: solid 2px #c90;
 }
 
+#nav {
+    background-color: #c90;
+}
+
+#nav li a {
+    float: left;
+    text-decoration:none;
+    padding: 5px 20px 5px 10px;
+    color: #ffffff
+}
+
+#nav li a:hover {
+    background-color: #900;
+}
 
 #content_right {
 	width: 300px;
@@ -141,13 +156,14 @@ ul li {
 	width: 600px;
 	float: left;
 	padding-left: 10px;
-
-
-	
 }
 
 #content_right h2, #content_right p, #content_right ul {
 	text-align:center;
+}
+
+#content-one-column {
+    width: 100%;
 }
 
 #about_img {
