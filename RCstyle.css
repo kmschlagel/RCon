@@ -54,6 +54,7 @@ body {
 }
 
 #wrapper {
+    position:relative;
 	width: 1035px;
 	background-color: #C93;
 	opacity:0.9;
@@ -65,14 +66,14 @@ body {
 
 h1 {
 	font-family: 'WorstveldSling';
-	font-size: 70px;
+	font-size: 60px;
 	color:#900;
 
 }
 
 h2 {
 	font-family: 'WorstveldSling';
-	font-size: 42px;
+	font-size: 38px;
 	margin-top: 30px;
 	color:#900;
 }
@@ -85,11 +86,13 @@ h3 {
 p {
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 	margin-top: 8px;	
+    font-size: 13px;
 }
 
 a, a:visited {
 	color:#900;
 	text-decoration:none;
+    font-size: 13px;
 }
 
 a:hover {
@@ -101,9 +104,21 @@ a:hover {
 ul li {
 	list-style: none;
 	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
 }
 
+.back-to {
+    margin-left: 20px;
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
 
+.back-to a:hover {
+    color: #fff;
+}
 
 #content {
 	width: 955px;
@@ -122,6 +137,9 @@ ul li {
     padding-bottom: 10px;
 }
 
+#header .border {
+    border: solid 1px #c90;
+}
 #header_imgs img {
 	margin-right: 20px;
 	border: solid 2px #c90;
@@ -133,6 +151,7 @@ ul li {
 
 #nav li a {
     float: left;
+    font-size: 14px;
     text-decoration:none;
     padding: 5px 20px 5px 10px;
     color: #ffffff
@@ -164,6 +183,17 @@ ul li {
 
 #content-one-column {
     width: 100%;
+    padding-left: 20px;
+}
+
+#content-one-column p {
+    padding: 10px 80px 10px 0px;
+    font-size:14px;
+    line-height: 20px;
+}
+
+#content-one-column h3 {
+    padding-top: 10px;
 }
 
 #about_img {
