@@ -9,7 +9,7 @@
 $name = $_POST['name'];
 
 $to = 'kmaillette@gmail.com';
-$subject = 'Unsubscribe Contact';
+$subject = 'Unsubscribe from Newsletter';
 
 $message = "Name: $name\n";
 $message .= 'Email: ' . $_POST['email'] . "\n";
