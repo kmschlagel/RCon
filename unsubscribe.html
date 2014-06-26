@@ -1,9 +1,46 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
-<head lang="en">
-	<meta charset="UTF-8">
-	<title></title>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<title>Rosa's Conversations</title>
+
+	<link rel="stylesheet" type="text/css" href="RCstyle.css">
+	<link rel="stylesheet" type="text/css" href="fonts/MyFontsWebfontsKit/MyFontsWebfontsKit.css">
 </head>
+
 <body>
+
+<div id="wrapper">
+	<div id="content" class="clearfix">
+		<div id="header" class="border">
+			<div id="top"><a href="index.html"><img src="img/conversations/header_img.gif" width="547" height="83"></a></div>
+			<div id="header_imgs">
+				<img src="img/conversations/trio_index.jpg" width="270" height="203">
+				<img src="img/conversations/Mujeres_index.jpg" width="270" height="203">
+				<img src="img/conversations/Primera_index.jpg" width="270" height="203">
+			</div> <!--/header_imgs-->
+		</div> <!--/header-->
+		<div id="nav" class="clearfix">
+			<ul>
+				<li><a href="rosas_travels.html">Travels</a></li>
+				<li><a href="newsletter.html">Newsletter</a></li>
+				<li><a href="testimonials.html">Testimonials</a></li>
+			</ul>
+		</div>
+		<div id="content-one-column">
+			<h2>Unsubscribe from Newsletter</h2>
+			<p>Please fill out this form to unsubscribe from this newsletter.</p>
+			<form action="sendmail-unsub.php" method="post">
+				<label>Full Name:</label><input type="text" name="name"><br>
+				<label>Email Address:</label> <input type="text" name="email"><br>
+				<input type="submit" value="Subscribe" class="submit">
+			</form>
+			<h3>Previous Issues</h3>
+			<p><a href="newsletter/segundo_idioma.pdf" target="_blank">May 2014</a><br>
+				<a href="newsletter/Idioma-II-June2014.pdf" target="_blank">June 2014</a></p>
+		</div> <!--/content-one-column-->
+	</div> <!--/content-->
+</div> <!--/wrapper-->
 </body>
 </html>

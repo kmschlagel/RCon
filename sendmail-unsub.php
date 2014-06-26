@@ -9,7 +9,7 @@
 $name = $_POST['name'];
 
 $to = 'kmaillette@gmail.com';
-$subject = 'New Subscriber';
+$subject = 'Unsubscribe Contact';
 
 $message = "Name: $name\n";
 $message .= 'Email: ' . $_POST['email'] . "\n";
@@ -21,5 +21,5 @@ $headers =	'From: <' . $_POST['email'] . '> '. $name ."\r\n" .
 
 
 mail($to, $subject, $message, $headers);
-header('location: http://localhost:8888/RCon/thank-you.html');
+header('location: http://localhost:8888/RCon/unsub-conf.html');
 ?>
