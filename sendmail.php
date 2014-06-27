@@ -11,7 +11,8 @@ $name = $_POST['name'];
 $to = 'kmaillette@gmail.com';
 $subject = 'Subscribe to Newsletter';
 
-$message = "Name: $name\n";
+$message = "I want to receive your newsletter. Please add me to your mailing list.\n";
+$message .= "Name: $name\n";
 $message .= 'Email: ' . $_POST['email'] . "\n";
 $message .= "\n";
 
@@ -21,5 +22,5 @@ $headers =	'From: <' . $_POST['email'] . '> '. $name ."\r\n" .
 
 
 mail($to, $subject, $message, $headers);
-header('location: http://localhost:8888/RCon/thank-you.html');
+header('location: http://www.rcontesting.kateschlagel.com/thank-you.html');
 ?>

@@ -239,7 +239,8 @@ input[type=text]:focus {
 }
 
 input[type=submit] {
-    width: 100px;
+    width: 115px;
+    text-align: center;
     margin-top: 5px;
     margin-left: 150px;
     padding: 5px 20px;
