@@ -8,7 +8,7 @@
 
 $name = $_POST['name'];
 
-$to = 'kmaillette@gmail.com';
+$to = 'rosa.conversations@hotmail.com';
 $subject = 'Unsubscribe from Newsletter';
 
 $message = "I wish to unsubscribe from your newsletter. Please remove me from your mailing list.\n";
@@ -22,5 +22,5 @@ $headers =	'From: <' . $_POST['email'] . '> '. $name ."\r\n" .
 
 
 mail($to, $subject, $message, $headers);
-header('location: http://www.rcontesting.kateschlagel.com/unsub-conf.html');
+header('location: http://www.rosasconversations.com/unsub-conf.html');
 ?>
