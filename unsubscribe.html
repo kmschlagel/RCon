@@ -31,10 +31,10 @@
 		<div id="content-one-column">
 			<h2>Unsubscribe from Newsletter</h2>
 			<p>Please fill out this form to unsubscribe from this newsletter.</p>
-			<form action="sendmail-unsub.php" method="post">
-				<label>Full Name:</label><input type="text" name="name"><br>
-				<label>Email Address:</label> <input type="text" name="email"><br>
-				<input type="submit" value="Unsubscribe" class="submit">
+			<form name="mailform" method="post" action="mailform-unsubscribe.php" onSubmit="return validate.check(this)">
+				<label>Full Name:</label><input type="text" name="Full_Name" id="Full_Name"><br>
+				<label>Email Address:</label> <input type="text" name="Email_Address" id="Email_Address" maxlength="100" ><br>
+				<input type="submit" value="Subscribe" class="submit">
 			</form>
 		</div> <!--/content-one-column-->
 	</div> <!--/content-->

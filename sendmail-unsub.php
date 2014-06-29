@@ -8,7 +8,7 @@
 
 $name = $_POST['name'];
 
-$to = 'rosa.conversations@hotmail.com';
+$to = 'kmaillette@gmail.com';
 $subject = 'Unsubscribe from Newsletter';
 
 $message = "I wish to unsubscribe from your newsletter. Please remove me from your mailing list.\n";
