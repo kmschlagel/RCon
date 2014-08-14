@@ -253,8 +253,9 @@ input[type=submit] {
 }
 /* wild cards */
 .tiny {
-	font-size:12px;
+	font-size:11px;
 	font-style:italic;
+    margin-top: 25px;
 }
 
 .location {
