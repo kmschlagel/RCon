@@ -72,7 +72,7 @@ h1 {
 
 }
 
-h2 {
+h2,  h2 a {
 	font-family: 'WorstveldSling';
 	font-size: 38px;
 	margin-top: 30px;
